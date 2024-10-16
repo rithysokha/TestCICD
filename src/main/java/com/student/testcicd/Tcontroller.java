@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Tcontroller {
     @GetMapping
     public String hello(){
-        return "<h1>CI/CD success</h1>";
+        return "<h1>CI/CD third attempt</h1>";
     }
 }
